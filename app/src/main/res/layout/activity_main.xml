@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/profile_background"
+    tools:context=".MainActivity" >
+    <Button
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="@string/student_profile"
+        android:gravity="start|center"
+        android:textColor="#FFFFE0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:backgroundTint="#673AB7" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewAvatar"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:padding="16dp"
+            android:onClick="onClickAvatarToFacebookAccount"
+            android:src="@drawable/avatar" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_weight="1"
+            android:id="@+id/imageViewHCMUSLogo"
+            android:scaleType="centerCrop"
+            android:padding="16dp"
+            android:src="@drawable/hcmus_logo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/textViewFaculty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/faculty"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#FFFFE0"
+            android:backgroundTint="#673AB7"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/textViewClassID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/class_id"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#FFFFE0"
+            android:backgroundTint="#673AB7"
+            android:textSize="16sp"
+            android:onClick="onClickClassIDToPortal" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/textViewStudentID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/student_id"
+        android:gravity="start|center"
+        android:textColor="#FFFFE0"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/textViewFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/full_name"
+        android:gravity="start|center"
+        android:textColor="#FFFFE0"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/textViewBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/date_of_birth"
+        android:gravity="start|center"
+        android:textColor="#FFFFE0"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/textViewGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/gender"
+        android:gravity="start|center"
+        android:textColor="#FFFFE0"
+        android:textSize="16sp" />
+
+
+
+    <Button
+        android:id="@+id/textViewPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/phone_number"
+        android:gravity="start|center"
+        android:textColor="#FFFFE0"
+        android:onClick="onClickPhoneNumber"
+        android:textSize="16sp"
+/>
+    <Button
+        android:id="@+id/textViewPersonalEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/personal_email"
+        android:gravity="start|center"
+        android:textColor="#FFFFE0"
+        android:onClick="onClickPersonalEmail"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/textViewAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/address"
+        android:gravity="start|center"
+        android:textColor="#FFFFE0"
+        android:onClick="onClickAddress"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyProfile</string>
+    <string name="date_of_birth">DATE OF BIRTH: 16/07/2004</string>
+    <string name="full_name">FULL NAME: Ô Hớn Sâm</string>
+    <string name="gender">GENDER: Male</string>
+    <string name="student_id">STUDENT ID: 22125085</string>
+    <string name="phone_number">PHONE NUMBER: +84 522997833</string>
+    <string name="personal_email">PERSONAL EMAIL: ohonsam160704@gmail.com</string>
+    <string name="address">ADDRESS: 36A/4 762 Hong Bang Street, HCMC</string>
+    <string name="faculty">FACULTY: Information Technology</string>
+    <string name="class_id">CLASS ID: 22APCS2</string>
+    <string name="student_profile">Student Profile</string>
+    <string name="extra_information">Extra Information</string>
+    <string name="nothing_to_display">Nothing to display</string>
+    <string name="display">Display</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="info">
+        <item>DATE OF BIRTH</item>
+        <item>GENDER</item>
+        <item>PHONE NUMBER</item>
+        <item>PERSONAL EMAIL</item>
+        <item>ADDRESS</item>
+    </string-array>
+</resources>
